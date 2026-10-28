@@ -1,0 +1,10 @@
+{
+  "buildCommand": "echo 'Static site'",
+  "outputDirectory": "cortex-fisio-clean",
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
+}
