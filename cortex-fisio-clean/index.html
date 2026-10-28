@@ -10,8 +10,8 @@
 <helmet>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Córtex Fisio — o cérebro de evidências da fisioterapia</title>
-<link rel="stylesheet" href="_ds/modernist-33ab198c-f243-41ed-824a-0b1dc9031b5e/styles.css">
-<script src="_ds/modernist-33ab198c-f243-41ed-824a-0b1dc9031b5e/_ds_bundle.js"></script>
+<link rel="stylesheet" href="./_ds/modernist-33ab198c-f243-41ed-824a-0b1dc9031b5e/styles.css">
+<script src="./_ds/modernist-33ab198c-f243-41ed-824a-0b1dc9031b5e/_ds_bundle.js"></script>
 <style>
 html { scroll-behavior: smooth; }
 body { margin: 0; text-wrap: pretty; background: var(--color-bg); color: var(--color-text); font-family: var(--font-body); }
@@ -26,9 +26,9 @@ a:hover { color: var(--color-accent); }
 @media (prefers-reduced-motion: reduce) { * { animation: none !important; transition: none !important; } }
 </style>
 </helmet>
-
+ 
 <nav class="nav" style="position: sticky; top: 0; z-index: 20; background: var(--color-bg); border-bottom: 2px solid var(--color-divider); padding-inline: clamp(20px, 5vw, 72px); display: flex; align-items: center; gap: 28px;">
-  <a href="#" class="nav-brand" style="display: flex; align-items: center;"><img src="assets/logo.png" alt="Córtex Fisio" style="display: block; height: 40px; width: auto;"></a>
+  <a href="#" class="nav-brand" style="display: flex; align-items: center;"><img src="./assets/logo.png" alt="Córtex Fisio" style="display: block; height: 40px; width: auto;"></a>
   <div class="cx-hide-sm" style="display: flex; gap: 24px; margin-left: auto;">
     <a href="#como-funciona">Como funciona</a>
     <a href="#o-que-perguntar">O que perguntar</a>
@@ -37,9 +37,9 @@ a:hover { color: var(--color-accent); }
   </div>
   <a href="https://pay.cakto.com.br/vqe9n96_1063073" target="_blank" rel="noopener" class="btn btn-primary" style="margin-left: auto;">Comprar agora</a>
 </nav>
-
+ 
 <main style="max-width: 1240px; margin: 0 auto; padding: 0 clamp(20px, 5vw, 72px);">
-
+ 
   <section style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 460px), 1fr)); gap: clamp(40px, 6vw, 88px); align-items: center; padding: clamp(56px, 9vw, 120px) 0 clamp(56px, 8vw, 104px);">
     <div data-reveal="">
       <span style="display: inline-flex; align-items: center; gap: 10px; font-size: 13px; letter-spacing: 0.08em; text-transform: uppercase; color: var(--color-accent-700); margin-bottom: 28px;">
@@ -57,7 +57,7 @@ a:hover { color: var(--color-accent); }
       </div>
       <p style="font-size: 13px; margin: 20px 0 0; color: color-mix(in srgb, var(--color-text) 70%, transparent);">Pagamento único de R$ 67,00 · Acesso vitalício · Atualizações mensais</p>
     </div>
-
+ 
     <div data-reveal="" style="background: var(--color-surface); border: 2px solid var(--color-text); box-shadow: 10px 10px 0 var(--color-accent);">
       <div style="display: flex; align-items: center; justify-content: space-between; padding: 14px 20px; border-bottom: 2px solid var(--color-text);">
         <span style="font-size: 13px; letter-spacing: 0.08em; text-transform: uppercase; font-weight: 700;">Córtex · Consulta</span>
@@ -93,11 +93,11 @@ a:hover { color: var(--color-accent); }
         <span style="font-size: 13px; letter-spacing: 0.08em; text-transform: uppercase; font-weight: 700;">Veja a plataforma em uso</span>
         <span style="display: flex; gap: 6px;"><span style="width: 10px; height: 10px; background: var(--color-accent); display: inline-block;"></span><span style="width: 10px; height: 10px; background: var(--color-text); display: inline-block;"></span></span>
       </div>
-      <video src="assets/demo.mp4" autoplay="" muted="" loop="" playsinline="" controls="" style="display: block; width: 100%; height: auto; background: var(--color-text);"></video>
+      <video src="./assets/demo.mp4" autoplay="" muted="" loop="" playsinline="" controls="" style="display: block; width: 100%; height: auto; background: var(--color-text);"></video>
     </div>
   </section>
 </main>
-
+ 
 <div style="border-top: 2px solid var(--color-divider); border-bottom: 2px solid var(--color-divider); overflow: hidden; padding: 18px 0;">
   <sc-if value="{{ showMarquee }}" hint-placeholder-val="{{ true }}">
     <div style="display: flex; width: max-content; animation: cx-marquee 40s linear infinite;">
@@ -107,9 +107,9 @@ a:hover { color: var(--color-accent); }
     </div>
   </sc-if>
 </div>
-
+ 
 <main style="max-width: 1240px; margin: 0 auto; padding: 0 clamp(20px, 5vw, 72px);">
-
+ 
   <section style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 220px), 1fr)); border-bottom: 2px solid var(--color-divider);">
     <div data-reveal="" style="padding: 48px 24px 48px 0;">
       <p style="margin: 0; font-family: var(--font-heading); font-weight: 800; font-size: clamp(40px, 4vw, 56px); line-height: 1; color: var(--color-accent);">{{ stat1 }}</p>
@@ -128,7 +128,7 @@ a:hover { color: var(--color-accent); }
       <p style="margin: 14px 0 0; font-size: 13px; letter-spacing: 0.08em; text-transform: uppercase; color: color-mix(in srgb, var(--color-text) 70%, transparent);">Áreas da fisioterapia cobertas</p>
     </div>
   </section>
-
+ 
   <section style="padding: clamp(64px, 9vw, 120px) 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 420px), 1fr)); gap: 0; border-bottom: 2px solid var(--color-divider);">
     <div data-reveal="" style="padding: 0 clamp(0px, 3vw, 48px) 40px 0;">
       <span style="display: block; font-size: 13px; letter-spacing: 0.08em; text-transform: uppercase; color: color-mix(in srgb, var(--color-text) 70%, transparent); margin-bottom: 20px;">Hoje</span>
@@ -149,7 +149,7 @@ a:hover { color: var(--color-accent); }
       </div>
     </div>
   </section>
-
+ 
   <section id="como-funciona" style="padding: clamp(64px, 9vw, 120px) 0 clamp(40px, 6vw, 80px); scroll-margin-top: 72px;">
     <span data-reveal="" style="display: block; font-size: 13px; letter-spacing: 0.08em; text-transform: uppercase; color: var(--color-accent-700); margin-bottom: 20px;">Como funciona</span>
     <h2 data-reveal="" style="font-family: var(--font-heading); font-weight: 800; font-size: clamp(32px, 4.4vw, 60px); line-height: 1.04; letter-spacing: -0.02em; margin: 0 0 56px; max-width: 18ch;">Três passos entre a dúvida e a conduta.</h2>
@@ -161,34 +161,34 @@ a:hover { color: var(--color-accent); }
       </div>
     </sc-for>
   </section>
-
+ 
   <section id="por-dentro" style="padding: clamp(40px, 6vw, 80px) 0 clamp(64px, 9vw, 120px); border-top: 2px solid var(--color-divider); scroll-margin-top: 72px;">
     <span data-reveal="" style="display: block; font-size: 13px; letter-spacing: 0.08em; text-transform: uppercase; color: var(--color-accent-700); margin-bottom: 20px;">Por dentro da plataforma</span>
     <h2 data-reveal="" style="font-family: var(--font-heading); font-weight: 800; font-size: clamp(32px, 4.4vw, 60px); line-height: 1.04; letter-spacing: -0.02em; margin: 0 0 48px; max-width: 18ch;">Respostas que você confere fonte por fonte.</h2>
     <div style="display: flex; flex-wrap: wrap; gap: 24px; align-items: flex-start;">
       <figure data-reveal="" style="flex: 1 1 260px; max-width: 360px; margin: 0; display: flex; flex-direction: column; gap: 14px;">
-        <div style="border: 2px solid var(--color-text); background: #fff;"><img src="assets/fontes.png" alt="Painel de fontes com artigos em PDF" style="display: block; width: 100%; height: auto;"></div>
+        <div style="border: 2px solid var(--color-text); background: #fff;"><img src="./assets/fontes.png" alt="Painel de fontes com artigos em PDF" style="display: block; width: 100%; height: auto;"></div>
         <figcaption style="display: flex; flex-direction: column; gap: 4px;"><strong style="font-family: var(--font-heading); font-size: 18px;">Seu acervo de fontes</strong><span style="font-size: 15px; line-height: 1.5; color: color-mix(in srgb, var(--color-text) 78%, transparent);">Escolha quais artigos entram na pesquisa ou adicione novos.</span></figcaption>
       </figure>
       <div style="flex: 3 1 480px; min-width: 0; display: flex; flex-direction: column; gap: 24px;">
         <figure data-reveal="" style="margin: 0; display: flex; flex-direction: column; gap: 14px;">
-          <div style="border: 2px solid var(--color-text); background: #fff;"><img src="assets/resposta-lca.png" alt="Resposta sobre testes clínicos para LCA com citações" style="display: block; width: 100%; height: auto;"></div>
+          <div style="border: 2px solid var(--color-text); background: #fff;"><img src="./assets/resposta-lca.png" alt="Resposta sobre testes clínicos para LCA com citações" style="display: block; width: 100%; height: auto;"></div>
           <figcaption style="display: flex; flex-direction: column; gap: 4px;"><strong style="font-family: var(--font-heading); font-size: 18px;">Resumo direto, com citações</strong><span style="font-size: 15px; line-height: 1.5; color: color-mix(in srgb, var(--color-text) 78%, transparent);">Cada afirmação traz o número do artigo de onde saiu.</span></figcaption>
         </figure>
         <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 280px), 1fr)); gap: 24px;">
           <figure data-reveal="" style="margin: 0; display: flex; flex-direction: column; gap: 14px;">
-            <div style="border: 2px solid var(--color-text); background: #fff;"><img src="assets/fases.png" alt="Protocolo de reabilitação dividido em fases" style="display: block; width: 100%; height: auto;"></div>
+            <div style="border: 2px solid var(--color-text); background: #fff;"><img src="./assets/fases.png" alt="Protocolo de reabilitação dividido em fases" style="display: block; width: 100%; height: auto;"></div>
             <figcaption style="display: flex; flex-direction: column; gap: 4px;"><strong style="font-family: var(--font-heading); font-size: 18px;">Protocolos por fase</strong><span style="font-size: 15px; line-height: 1.5; color: color-mix(in srgb, var(--color-text) 78%, transparent);">Objetivos, prioridades e o que fazer em cada etapa.</span></figcaption>
           </figure>
           <figure data-reveal="" style="margin: 0; display: flex; flex-direction: column; gap: 14px;">
-            <div style="border: 2px solid var(--color-text); background: #fff;"><img src="assets/comparacao.png" alt="Tabela comparando três protocolos" style="display: block; width: 100%; height: auto;"></div>
+            <div style="border: 2px solid var(--color-text); background: #fff;"><img src="./assets/comparacao.png" alt="Tabela comparando três protocolos" style="display: block; width: 100%; height: auto;"></div>
             <figcaption style="display: flex; flex-direction: column; gap: 4px;"><strong style="font-family: var(--font-heading); font-size: 18px;">Comparação lado a lado</strong><span style="font-size: 15px; line-height: 1.5; color: color-mix(in srgb, var(--color-text) 78%, transparent);">Protocolos confrontados em uma tabela prática.</span></figcaption>
           </figure>
         </div>
       </div>
     </div>
   </section>
-
+ 
   <section id="o-que-perguntar" style="padding: clamp(40px, 6vw, 80px) 0 clamp(64px, 9vw, 120px); border-top: 2px solid var(--color-divider); scroll-margin-top: 72px;">
     <span data-reveal="" style="display: block; font-size: 13px; letter-spacing: 0.08em; text-transform: uppercase; color: var(--color-accent-700); margin-bottom: 20px;">O que você pode perguntar</span>
     <h2 data-reveal="" style="font-family: var(--font-heading); font-weight: 800; font-size: clamp(32px, 4.4vw, 60px); line-height: 1.04; letter-spacing: -0.02em; margin: 0 0 48px; max-width: 20ch;">Da lesão ao retorno ao esporte.</h2>
@@ -197,19 +197,19 @@ a:hover { color: var(--color-accent); }
         <div data-reveal="" style="padding: 28px; border-right: 2px solid var(--color-text); border-bottom: 2px solid var(--color-text); display: flex; flex-direction: column; gap: 14px; min-height: 220px; transition: background .2s, color .2s; cursor: default;" style-hover="background: var(--color-accent); color: var(--color-bg);">
           <span style="font-size: 13px; letter-spacing: 0.08em; text-transform: uppercase; font-weight: 700;">{{ t.kicker }}</span>
           <h3 style="margin: 0; font-family: var(--font-heading); font-weight: 800; font-size: 24px; line-height: 1.2;">{{ t.title }}</h3>
-          <p style="margin: auto 0 0; font-size: 15px; line-height: 1.5; font-style: italic;">“{{ t.example }}”</p>
+          <p style="margin: auto 0 0; font-size: 15px; line-height: 1.5; font-style: italic;">"{{ t.example }}"</p>
         </div>
       </sc-for>
     </div>
   </section>
-
+ 
   <section id="planos" style="padding: clamp(64px, 9vw, 120px) 0; border-top: 2px solid var(--color-divider); scroll-margin-top: 72px;">
     <div style="display: flex; flex-wrap: wrap; gap: 24px; align-items: end; justify-content: space-between; margin-bottom: 48px;">
       <div data-reveal="">
         <span style="display: block; font-size: 13px; letter-spacing: 0.08em; text-transform: uppercase; color: var(--color-accent-700); margin-bottom: 20px;">Planos</span>
         <h2 style="font-family: var(--font-heading); font-weight: 800; font-size: clamp(32px, 4.4vw, 60px); line-height: 1.04; letter-spacing: -0.02em; margin: 0; max-width: 16ch;">Um pagamento. Acesso para sempre.</h2>
       </div>
-      
+ 
     </div>
     <div style="display: grid; max-width: 640px; border: 2px solid var(--color-text);">
       <div data-reveal="" style="padding: clamp(28px, 4vw, 48px); display: flex; flex-direction: column; gap: 24px; background: var(--color-text); color: var(--color-bg); position: relative;">
@@ -230,7 +230,7 @@ a:hover { color: var(--color-accent); }
     </div>
     <p data-reveal="" style="margin: 24px 0 0; font-size: 14px; color: color-mix(in srgb, var(--color-text) 75%, transparent); display: flex; gap: 10px; align-items: center;"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3l8 3v6c0 5-3.5 8-8 9-4.5-1-8-4-8-9V6z"></path></svg>Garantia de 7 dias: não gostou, devolvemos 100% do valor.</p>
   </section>
-
+ 
   <section id="faq" style="padding: clamp(64px, 9vw, 120px) 0; border-top: 2px solid var(--color-divider); display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 340px), 1fr)); gap: 40px clamp(40px, 6vw, 96px); scroll-margin-top: 72px;">
     <div data-reveal="">
       <span style="display: block; font-size: 13px; letter-spacing: 0.08em; text-transform: uppercase; color: var(--color-accent-700); margin-bottom: 20px;">Dúvidas frequentes</span>
@@ -253,7 +253,7 @@ a:hover { color: var(--color-accent); }
     </div>
   </section>
 </main>
-
+ 
 <section style="background: var(--color-accent); color: var(--color-bg);">
   <div style="max-width: 1240px; margin: 0 auto; padding: clamp(72px, 10vw, 140px) clamp(20px, 5vw, 72px);">
     <h2 data-reveal="" style="font-family: var(--font-heading); font-weight: 800; font-size: clamp(40px, 6.4vw, 92px); line-height: 1.02; letter-spacing: -0.025em; margin: 0;">
@@ -265,9 +265,9 @@ a:hover { color: var(--color-accent); }
     </div>
   </div>
 </section>
-
+ 
 <footer style="max-width: 1240px; margin: 0 auto; padding: 32px clamp(20px, 5vw, 72px); display: flex; flex-wrap: wrap; gap: 16px 32px; justify-content: space-between; font-size: 13px; line-height: 1.6; color: color-mix(in srgb, var(--color-text) 70%, transparent);">
-  <span style="display: flex; align-items: center; gap: 16px;"><img src="assets/logo.png" alt="Córtex Fisio" style="display: block; height: 32px; width: auto;">© 2026</span>
+  <span style="display: flex; align-items: center; gap: 16px;"><img src="./assets/logo.png" alt="Córtex Fisio" style="display: block; height: 32px; width: auto;">© 2026</span>
   <span style="max-width: 70ch;">O Córtex Fisio é uma ferramenta de apoio à pesquisa e não substitui a avaliação clínica do fisioterapeuta.</span>
 </footer>
 </x-dc>
@@ -306,10 +306,10 @@ const SCENARIOS = [
       { n: 3, t: 'Revisão sistemática, 2023', level: 'Nível I' }
     ] }
 ];
-
+ 
 class Component extends DCLogic {
   state = { si: 0, qc: 0, ac: 0, phase: 'typing', wait: 0, plan: 'anual', open: 0, counted: 0 };
-
+ 
   componentDidMount() {
     this.timer = setInterval(() => this.tick(), 40);
     this.setupReveal();
