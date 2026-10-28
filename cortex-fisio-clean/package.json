@@ -1,0 +1,18 @@
+{
+  "name": "cortex-fisio",
+  "version": "1.0.0",
+  "description": "Córtex Fisio - IA de pesquisa científica para fisioterapeutas",
+  "main": "index.html",
+  "type": "module",
+  "scripts": {
+    "start": "python -m http.server 3000",
+    "build": "echo 'Este é um site estático, nenhuma build necessária'"
+  },
+  "keywords": [
+    "fisioterapia",
+    "evidência científica",
+    "IA"
+  ],
+  "author": "",
+  "license": "MIT"
+}
